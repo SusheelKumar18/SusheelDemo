@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.susheel.tests.Seleniumdemo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="dateTest"/>
+          <include name="setup"/>
+          <include name="dateSelect"/>
+          <include name="firstNameTest"/>
+          <include name="gender"/>
+          <include name="lastNameTest"/>
+          <include name="myDetails"/>
+          <include name="nationality"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.susheel.tests.Seleniumdemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.susheel.tests.Seleniumdemo2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.susheel.tests.Seleniumdemo2 -->
+      <class name="com.susheel.tests.Seleniumdemo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="firstNameTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.susheel.tests.Seleniumdemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.susheel.tests.Seleniumdemo2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="firstNameTest"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.susheel.tests.Seleniumdemo2 -->
+      <class name="com.susheel.tests.Seleniumdemo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.susheel.tests.Seleniumdemo -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
