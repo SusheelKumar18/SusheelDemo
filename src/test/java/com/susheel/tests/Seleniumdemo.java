@@ -49,6 +49,8 @@ public class Seleniumdemo extends TestBase {
 		log.info("Actual Titile is : "+ actualTitle );
 		Assert.assertEquals(actualTitle, "OrangeHRM");
 		
+		System.out.println("github");
+		
 	}
 	
 		@Test(priority = 1)
