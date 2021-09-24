@@ -82,6 +82,9 @@ public class Seleniumdemo2 extends TestBase {
 		System.out.println(welcome);
 	//	Assert.assertEquals(welcome, "Welcome Tom");
 		
+		// TO check git hub
+		// and create a pull request
+		
 		}
 
 		@Test(priority = 2)
