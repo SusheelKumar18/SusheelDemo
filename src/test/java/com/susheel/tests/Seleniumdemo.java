@@ -72,7 +72,7 @@ public class Seleniumdemo extends TestBase {
 		// PRINTING WELCOME
 		String welcome = homePage.retriveUserNameFromHomePage();
 		log.info("User is on Home Page: " + welcome);
-		// Assert.assertEquals(welcome, "Welcome Tom");
+		 Assert.assertEquals(welcome, "Welcome 11111");
 
 	}
 
