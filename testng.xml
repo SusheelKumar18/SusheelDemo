@@ -7,12 +7,7 @@
       <class name="com.susheel.tests.Seleniumdemo"/> 
     </classes>
   </test> <!-- Test -->
-  
-  <test name="Test2">
-    <classes>
-      <class name="com.susheel.tests.Seleniumdemo2"/>
-    </classes>
-  </test>
+ 
   
 </suite> <!-- Suite -->
 
