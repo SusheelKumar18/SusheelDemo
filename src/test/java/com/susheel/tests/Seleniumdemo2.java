@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import com.susheel.base.TestBase;
 import com.susheel.helper.PropsHelper;
-import com.susheel.helper.Xls_Reader;
+import com.susheel.helper.XlsReader;
 import com.susheel.pages.HomePage;
 import com.susheel.pages.LoginPage;
 import com.susheel.pages.MyinfoPage;
@@ -25,7 +25,7 @@ public class Seleniumdemo2 extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	MyinfoPage myInfoPage;
-	Xls_Reader reader;
+	XlsReader reader;
 	
 	String username;
 	String password;
@@ -43,7 +43,7 @@ public class Seleniumdemo2 extends TestBase {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
 		myInfoPage = new MyinfoPage(driver);
-		reader = new Xls_Reader("C:\\Users\\kumar\\eclipse-workspace\\SusheelDemo\\src\\test\\resources\\inputData.xlsx");
+		reader = new XlsReader("C:\\Users\\kumar\\eclipse-workspace\\SusheelDemo\\src\\test\\resources\\inputData.xlsx");
 		
 		username = reader.getCellData("testData", "username", 2);
 		password = reader.getCellData("testData", "password", 2);

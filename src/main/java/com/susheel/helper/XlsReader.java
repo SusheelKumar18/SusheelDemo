@@ -12,7 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Xls_Reader {
+public class XlsReader {
 	public String path;
 	public FileInputStream fis = null;
 	public FileOutputStream fileOut = null;
@@ -21,7 +21,7 @@ public class Xls_Reader {
 	private XSSFRow row = null;
 	private XSSFCell cell = null;
 
-	public Xls_Reader(String path) {
+	public XlsReader(String path) {
 
 		this.path = path;
 		try {
